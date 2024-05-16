@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"Originals","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor4","traits":[],"initialLevel":1,"maxLevel":99,"name":"Faizer-Sama","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":4,"characterName":"Monster","classId":5,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"Kyran das Trevas","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":1,"characterName":"Monster","classId":6,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"Slime","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":1,"characterName":"Originals","classId":5,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Actor4","traits":[],"initialLevel":1,"maxLevel":99,"name":"Astaroth","nickname":"","note":"","profile":""}
+]
