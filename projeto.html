@@ -2,34 +2,68 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projetos | Bernardo Corrêa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Teste/icon/icon.png" type="image/png">
     <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
+
 <body>
-    <header>
-        <div class="botoes">
-        <a id="item-select" href="index.html">Home</a>
-        <a id="item-select" href="projeto.html">Projetos</a>
-        <a href="https://twitter.com/Bernard02679294">Redes Sociais</a>
+
+<header class="top-bar">
+    <div class="logo">BC</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Sobre</a>
+        <a href="projeto.html" class="active">Projetos</a>
+    </nav>
+</header>
+
+<main class="projects">
+    <h1>Meus Projetos</h1>
+    <p class="subtitle">Alguns trabalhos acadêmicos e projetos pessoais</p>
+
+    <!-- Institucionais -->
+    <section class="project-section">
+        <h2>Projetos Institucionais</h2>
+
+        <div class="project-card">
+            <h3>Projeto Integrador Senac – v1.0</h3>
+            <p>
+                Utilização de todas as habilidades adquiridas durante o curso,
+                aplicando criatividade e desenvolvimento web.
+            </p>
+            <a href="https://duelmonsters.vercel.app" target="_blank" class="btn">
+                Ver Projeto
+            </a>
         </div>
-    </header>
-    <fieldset>
-        <p>Projetos Institucionais</p>
-        <h5><a href="https://duelmonsters.vercel.app">Projeto Integrador Senac versão 1.0</a>  
-        <br>
-        -Objetivo:Utilizar todas as habilidades adquiridas durante o curso e criar algo criativo.
-        </h5>
-        <p>Projetos Pessoais</p>
-        <h5>
-            <p id="text">Jogo RPG em desenvolvimento</p>
-            -Objetivo:Testar as mecânicas de um engine de criação de jogos para projetos futuros. <br>
-            <a href="Teste/jogo.html">Ir a página</a>
-            <br>
-            <p id="text">Jogo da Velha feito em C++ </p>
-            <a href="jogo_velha.zip" download="jogo_velha">Download aqui</a>
-        </h5>
-    </fieldset>
+    </section>
+
+    <!-- Pessoais -->
+    <section class="project-section">
+        <h2>Projetos Pessoais</h2>
+
+        <div class="project-card">
+            <h3>Jogo RPG (em desenvolvimento)</h3>
+            <p>
+                Teste de mecânicas em uma engine de criação de jogos
+                visando projetos futuros.
+            </p>
+            <a href="Teste/jogo.html" class="btn">Acessar Página</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Jogo da Velha em C++</h3>
+            <p>
+                Projeto para prática de lógica de programação
+                utilizando a linguagem C++.
+            </p>
+            <a href="jogo_velha.zip" download class="btn outline">
+                Download
+            </a>
+        </div>
+    </section>
+</main>
+
 </body>
 </html>
