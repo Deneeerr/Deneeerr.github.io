@@ -1,4 +1,4 @@
-/* HERO SECTION */
+/* HERO */
 .hero {
     display: flex;
     justify-content: center;
@@ -8,17 +8,17 @@
 }
 
 .hero-content {
-    max-width: 600px;
+    max-width: 620px;
 }
 
-/* FOTO */
+/* AVATAR */
 .avatar {
     width: 180px;
     height: 180px;
     margin: 0 auto 20px;
     border-radius: 50%;
     padding: 6px;
-    background: linear-gradient(135deg, #f5b942, #8f5bff);
+    background: linear-gradient(135deg, #4da3ff, #5f6cff);
 }
 
 .avatar img {
@@ -30,7 +30,7 @@
 
 /* TEXTOS */
 .hello {
-    color: #f5b942;
+    color: #4da3ff;
     letter-spacing: 2px;
     font-size: 14px;
 }
@@ -41,12 +41,12 @@
 }
 
 .hero h1 span {
-    color: #f5b942;
+    color: #4da3ff;
 }
 
 .hero p {
     font-size: 16px;
-    color: #bbbbbb;
+    color: #b6cfff;
     line-height: 1.6;
 }
 
@@ -58,7 +58,7 @@
 .social a {
     margin: 0 10px;
     font-size: 22px;
-    color: #f5b942;
+    color: #4da3ff;
     text-decoration: none;
     transition: 0.3s;
 }

@@ -14,7 +14,7 @@
 
 .subtitle {
     text-align: center;
-    color: #bbbbbb;
+    color: #b6cfff;
     margin-bottom: 50px;
 }
 
@@ -26,23 +26,23 @@
 .project-section h2 {
     font-size: 28px;
     margin-bottom: 25px;
-    color: #f5b942;
+    color: #4da3ff;
 }
 
 /* CARDS */
 .project-card {
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(245, 185, 66, 0.25);
+    border: 1px solid rgba(77, 163, 255, 0.25);
     border-radius: 16px;
     padding: 25px;
     margin-bottom: 25px;
-    box-shadow: 0 0 30px rgba(245,185,66,0.1);
+    box-shadow: 0 0 30px rgba(77,163,255,0.15);
     transition: 0.3s;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 40px rgba(245,185,66,0.3);
+    transform: translateY(-6px);
+    box-shadow: 0 0 45px rgba(77,163,255,0.35);
 }
 
 .project-card h3 {
@@ -51,7 +51,7 @@
 }
 
 .project-card p {
-    color: #cccccc;
+    color: #c5dcff;
     line-height: 1.6;
 }
 
@@ -59,12 +59,13 @@
 .btn {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 18px;
+    padding: 10px 20px;
     border-radius: 8px;
-    background: linear-gradient(135deg, #f5b942, #8f5bff);
-    color: #000;
+    background: linear-gradient(135deg, #4da3ff, #5f6cff);
+    color: #050b16;
     text-decoration: none;
     font-size: 14px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
@@ -74,11 +75,11 @@
 
 .btn.outline {
     background: transparent;
-    border: 1px solid #f5b942;
-    color: #f5b942;
+    border: 1px solid #4da3ff;
+    color: #4da3ff;
 }
 
 .btn.outline:hover {
-    background: #f5b942;
-    color: #000;
+    background: #4da3ff;
+    color: #050b16;
 }
