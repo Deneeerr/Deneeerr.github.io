@@ -51,18 +51,23 @@
 }
 
 /* REDES */
-.social {
-    margin-top: 25px;
+.contato-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-.social a {
-    margin: 0 10px;
-    font-size: 22px;
-    color: #4da3ff;
-    text-decoration: none;
-    transition: 0.3s;
+.contato-icons a {
+    font-size: 28px;
+    color: #4da6ff;
+    transition: 0.3s ease;
 }
 
-.social a:hover {
-    color: #ffffff;
+.contato-icons a:hover {
+    color: #1e90ff;
+    transform: translateY(-5px);
+    text-shadow: 0 0 10px #1e90ff;
 }
+
+
