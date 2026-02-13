@@ -1,14 +1,20 @@
-/* CONTAINER */
+/* ============================= */
+/* CONTAINER PRINCIPAL */
+/* ============================= */
+
 .about {
-    max-width: 1000px;
-    margin: 60px auto;
+    max-width: 1100px;
+    margin: 80px auto;
     padding: 0 20px;
 }
 
-/* INTRO */
+/* ============================= */
+/* HERO / INTRO */
+/* ============================= */
+
 .about-hero {
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
 }
 
 .about-hero h1 {
@@ -24,57 +30,127 @@
     line-height: 1.6;
 }
 
+/* ============================= */
 /* TIMELINE */
+/* ============================= */
+
 .timeline {
-    margin-bottom: 70px;
+    max-width: 850px;
+    margin: 80px auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* 👈 ESPAÇO ENTRE OS CARDS */
 }
 
 .timeline h2 {
+    text-align: center;
     font-size: 28px;
-    margin-bottom: 30px;
     color: #4da3ff;
+    margin-bottom: 20px;
+}
+/* GRID RESPONSIVO CENTRALIZADO */
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 35px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
+/* ============================= */
+/* CARDS DA JORNADA */
+/* ============================= */
+
 .timeline-item {
-    border-left: 3px solid #4da3ff;
-    padding-left: 20px;
-    margin-bottom: 25px;
+    padding: 20px 25px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(77, 163, 255, 0.35);
+    transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+    background: rgba(77, 163, 255, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(77, 163, 255, 0.25);
 }
 
 .timeline-item span {
+    display: block;
     font-weight: bold;
+    font-size: 16px;
     color: #9cc9ff;
+    margin-bottom: 8px;
 }
 
 .timeline-item p {
     color: #c5dcff;
-    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* ============================= */
+/* SKILLS */
+/* ============================= */
+
+.skills {
+    margin-top: 60px;
 }
 
-/* SKILLS */
 .skills h2 {
     font-size: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     color: #4da3ff;
+    text-align: center;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .skill-card {
-    padding: 15px;
+    padding: 18px;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 14px;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(77, 163, 255, 0.25);
     color: #cfe3ff;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 .skill-card:hover {
     background: rgba(77, 163, 255, 0.15);
-    transform: translateY(-4px);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(77, 163, 255, 0.25);
+}
+
+/* ============================= */
+/* RESPONSIVIDADE EXTRA */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .about-hero h1 {
+        font-size: 32px;
+    }
+
+    .timeline h2,
+    .skills h2 {
+        font-size: 24px;
+    }
+
+    .timeline-grid,
+    .skills-grid {
+        gap: 25px;
+    }
+
+    .timeline-item {
+        padding: 16px;
+    }
 }
